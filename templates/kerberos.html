@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerberos Authentication</title>
+</head>
+<body>
+    <h1>Kerberos Authentication</h1>
+    <form method="POST" action="/authenticate">
+        <label for="user_principal">User Principal:</label><br>
+        <input type="text" id="user_principal" name="user_principal" required><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <button type="submit">Authenticate</button>
+    </form>
+
+    <h2>View Kerberos Tickets</h2>
+    <form method="GET" action="/list_tickets">
+        <button type="submit">List Tickets</button>
+    </form>
+</body>
+</html>
