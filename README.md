@@ -14,8 +14,8 @@ This repository provides a Flask-based application to handle Kerberos authentica
 ## Installation
 1. Install kerberos package 
 
-sudo apt-get update
-sudo apt-get install -y krb5-user
+- sudo apt-get update
+- sudo apt-get install -y krb5-user
 
 2. Clone the repository:
    ```bash
