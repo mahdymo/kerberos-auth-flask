@@ -12,8 +12,7 @@ This repository provides a Flask-based application to handle Kerberos authentica
 - Kerberos installed and configured on the host system.
 
 ## Installation
-- from within the folder run `docker-compose build`.
-- Then use `docker-compose up -d`
+- From within the downloaded folder use `docker-compose up -d`
 - You should see two containers with ports 80, 443, 5000 exposed.
 
 
