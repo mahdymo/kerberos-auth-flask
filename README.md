@@ -12,23 +12,9 @@ This repository provides a Flask-based application to handle Kerberos authentica
 - Kerberos installed and configured on the host system.
 
 ## Installation
-1. Install kerberos package 
+- From within the downloaded folder use `docker-compose up -d`
+- You should see two containers with ports 80, 443, 5000 exposed.
 
-- sudo apt-get update
-- sudo apt-get install -y krb5-user
-
-2. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/kerberos-auth-flask.git
-   cd kerberos-auth-flask
-3. pip install -r requirements.txt
-
-4. python app.py
-
-5. Access the app:
-
-GUI: http://<Server-IP>:5000
-API: Use endpoints at http://<Server-IP>:5000
 
 
 ### **API Endpoints**
@@ -79,3 +65,7 @@ API: Use endpoints at http://<Server-IP>:5000
     }
     ```
 
+## Ongoing enhancements 
+- Use HTTPS by default
+- Block access to backend except from NGINX
+- Allow more authentication methods. 
